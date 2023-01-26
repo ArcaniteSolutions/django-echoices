@@ -4,7 +4,7 @@ from distutils.version import StrictVersion
 from django import get_version as django_version
 from django.core import exceptions
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from echoices.enums import EChoice
 from echoices.forms import TypedEChoiceField
